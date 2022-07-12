@@ -1,35 +1,28 @@
 # napari-matous
-
-[![License MIT](https://img.shields.io/pypi/l/napari-matous.svg?color=green)](https://github.com/m-elphick/napari-matous/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/napari-matous.svg?color=green)](https://pypi.org/project/napari-matous)
-[![Python Version](https://img.shields.io/pypi/pyversions/napari-matous.svg?color=green)](https://python.org)
-[![tests](https://github.com/m-elphick/napari-matous/workflows/tests/badge.svg)](https://github.com/m-elphick/napari-matous/actions)
-[![codecov](https://codecov.io/gh/m-elphick/napari-matous/branch/main/graph/badge.svg)](https://codecov.io/gh/m-elphick/napari-matous)
-[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-matous)](https://napari-hub.org/plugins/napari-matous)
-
-My first plugin as a napari developer
+Tools I build during my time at the Francis Crick Institute
 
 ----------------------------------
 
-This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template.
-
-<!--
-Don't miss the full getting started guide to set up your new package:
-https://github.com/napari/cookiecutter-napari-plugin#getting-started
-
-and review the napari docs for plugin developers:
-https://napari.org/plugins/index.html
--->
-
 ## Installation
 
-You can install `napari-matous` via [pip]:
+To install `napari-matous` it is recommended to create a fresh `conda` environment with Python 3.9:
+```
+conda create -n matous_env python=3.9
+```
 
-    pip install napari-matous
-
-
-
-To install latest development version :
+Then activate the `conda`:
+```
+conda activate matous_env
+```
+Next install the following essential packages using `conda`:
+```
+conda install -c anaconda pyqt grpcio
+```
+After, install `napari` with this command via [pip]:
+```
+pip install "napari[all]"
+```
+Lastly you can install `napari-matous` via [pip]:
 
     pip install git+https://github.com/m-elphick/napari-matous.git
 
