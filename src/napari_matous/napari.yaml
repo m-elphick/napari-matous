@@ -5,8 +5,16 @@ contributions:
     - id: napari-matous.segment_image
       python_name: napari_matous.segment:segment_image
       title: Segment user image
-
+    - id: napari-matous.stardist_segment
+      python_name: napari_matous.stardistsegment:stardist_segment_image
+      title: Stardist Segment
+    - id: napari-matous.mesh_filter
+      python_name: napari_matous.meshfilter:load_mesh
+      title: Mesh Filter Tool
   widgets:
     - command: napari-matous.segment_image
       display_name: Segment Image
-
+    - command : napari-matous.stardist_segment
+      display_name: Stardist Segment
+    - command: napari-matous.mesh_filter
+      display_name: Mesh Filter Tool
