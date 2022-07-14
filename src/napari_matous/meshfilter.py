@@ -50,7 +50,7 @@ def load_mesh(viewer: "napari.viewer.Viewer",
         surface = (np.asarray(filtered_mesh.vertices), np.asarray(filtered_mesh.triangles))
         viewer.add_surface(surface, name=mesh_path.name + '_mesh')
 
-    @thread_worker()
+    @thread_worker
     def filter_sharpen(mesh_obj):
         """
         Applies a 'sharpen' filter to a mesh
