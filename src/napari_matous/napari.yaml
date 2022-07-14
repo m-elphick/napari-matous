@@ -11,6 +11,9 @@ contributions:
     - id: napari-matous.mesh_filter
       python_name: napari_matous.meshfilter:load_mesh
       title: Mesh Filter Tool
+    - id: napari-matous.tiff2mesh
+      python_name: napari_matous.tiff2mesh:tiff_2_mesh
+      title: Tiff 2 Mesh Tool
   widgets:
     - command: napari-matous.segment_image
       display_name: Segment Image
@@ -18,3 +21,5 @@ contributions:
       display_name: Stardist Segment
     - command: napari-matous.mesh_filter
       display_name: Mesh Filter Tool
+    - command: napari-matous.tiff2mesh
+      display_name: Tiff 2 Mesh
