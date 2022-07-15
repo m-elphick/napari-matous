@@ -3,9 +3,11 @@ from .segment import segment_image
 from .stardistsegment import stardist_segment_image
 from .meshfilter import load_mesh
 from .tiff2mesh import tiff_2_mesh
+from .gamer import gamer_tool
 __all__ = (
     "segment_image",
     "stardist_segment_image",
     "load_mesh",
-    "tiff_2_mesh"
+    "tiff_2_mesh",
+    "gamer_tool"
 )

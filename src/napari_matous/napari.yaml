@@ -14,6 +14,9 @@ contributions:
     - id: napari-matous.tiff2mesh
       python_name: napari_matous.tiff2mesh:tiff_2_mesh
       title: Tiff 2 Mesh Tool
+    - id: napari-matous.gamer
+      python_name: napari_matous.gamer:gamer_tool
+      title: Gamer Tool
   widgets:
     - command: napari-matous.segment_image
       display_name: Segment Image
@@ -23,3 +26,5 @@ contributions:
       display_name: Mesh Filter Tool
     - command: napari-matous.tiff2mesh
       display_name: Tiff 2 Mesh
+    - command: napari-matous.gamer
+      display_name: Gamer Tool
